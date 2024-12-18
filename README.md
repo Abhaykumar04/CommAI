@@ -35,7 +35,6 @@ CommAI is a voice assistant designed to help users improve their verbal communic
         *   **Storage Admin**
         *   **Vertex AI User**
     *   Generate a JSON key file for the service account and download it.
-    *   Rename the key file to `commai-445004-f088c1b5e1f2.json` and place it in the project's root directory.
     *   **Important:** Securely store this key file. Do not commit it to version control.
 
 ## Setup
@@ -94,7 +93,7 @@ CommAI is a voice assistant designed to help users improve their verbal communic
 
 2. **Access the Application:**
     *   The Gradio interface will launch in your default web browser.
-    *   If it doesn't open automatically, look for the local URL printed in the console (usually `http://127.0.0.1:7860`).
+    *   If it doesn't open automatically, look for the local URL printed in the console.
     *   You might get the sharing URL too, which you can use to share this application.
 
 ## Code Overview
