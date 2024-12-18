@@ -20,7 +20,7 @@ class VerbaCommunicationCoach:
             self.tts_client = texttospeech.TextToSpeechClient()
             self.db = firestore.Client()
             vertexai.init()
-            self.model = GenerativeModel("gemini-1.5-flash")
+            self.model = GenerativeModel("gemini-2.0-flash-exp")
             # self.safety_settings = [
             #     {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
             #     {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
