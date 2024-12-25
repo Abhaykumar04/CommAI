@@ -7,7 +7,7 @@ from google.cloud import firestore
 import io
 from datetime import datetime
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "GOOGLE_APPLICATION_CREDENTIALS_path"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "commai-445004-f088c1b5e1f2.json"
 
 
 class VerbaCommunicationCoach:
